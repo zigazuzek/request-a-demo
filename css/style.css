@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i,900,900i&display=swap&subset=latin-ext");
+
+/* General */
+
+body {
+   font-family: "Roboto", sans-serif;
+   background-color: #f7fafc;
+   color: #1a202c;
+}
+
+/* Shapes */
+
+.outside-left-top {
+   top: 0;
+   left: 0;
+   width: 25%;
+   height: 28%;
+   position: absolute;
+   background-color: #e53e3e;
+}
+
+@media only screen and (min-width: 1441px) {
+   .outside-left-top {
+      width: 30%;
+   }
+}
+
+.outside-right-top {
+   top: 0;
+   right: 0;
+   width: 25%;
+   height: 25%;
+   position: absolute;
+   background-color: #90cdf4;
+}
+
+@media only screen and (min-width: 1441px) {
+   .outside-right-top {
+      width: 30%;
+   }
+}
+
+.outside-right-bottom {
+   bottom: 0;
+   right: 0;
+   width: 25%;
+   height: 40%;
+   position: absolute;
+   background-color: #edf2f7;
+   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%23cbd5e0' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+@media only screen and (min-width: 1441px) {
+   .outside-right-bottom {
+      width: 30%;
+      height: 50%;
+   }
+}
+
+.inside-left-topcenter {
+   top: 15%;
+   left: 0;
+   width: 5%;
+   height: 38%;
+   position: absolute;
+   background-color: #edf2f7;
+   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%23cbd5e0' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.inside-left-bottomcenter {
+   top: 65%;
+   left: 0;
+   width: 5%;
+   height: 20%;
+   position: absolute;
+   background-color: #f6e05e;
+}
+
+.inside-right-top {
+   top: 0;
+   right: 0;
+   width: 5%;
+   height: 20%;
+   position: absolute;
+   background-color: #68d391;
+}
+
+.inside-right-center {
+   top: 37%;
+   right: 0;
+   width: 5%;
+   height: 26%;
+   position: absolute;
+   background-color: #edf2f7;
+   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%23cbd5e0' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.inside-right-bottom {
+   bottom: 0;
+   right: 0;
+   width: 5%;
+   height: 20%;
+   position: absolute;
+   background-color: #90cdf4;
+}
+
+.square {
+   width: 18px;
+   height: 18px;
+   background-color: #e53e3e;
+}
+
+.line {
+   width: 70px;
+   height: 8px;
+   background-color: #ced4da;
+   margin-left: 3px;
+   margin-bottom: 5px;
+}
+
+/* Text */
+
+h1 {
+   font-size: 3rem;
+   line-height: 3.2rem;
+   font-weight: 900;
+}
+h4 {
+   font-size: 1.4rem;
+   font-weight: 300;
+   color: #a0aec0;
+}
+h6 {
+   font-size: 8px;
+   letter-spacing: 0.1rem;
+   margin-bottom: 0;
+   color: #a0aec0;
+}
+small {
+   font-size: 8px;
+   color: #a0aec0;
+}
+#thanks-message {
+   color: #a0aec0;
+}
+.highlight {
+   color: #1a202c;
+   font-weight: 700;
+   text-decoration: underline;
+   text-decoration-color: #f6e05e;
+}
+
+/* Buttons */
+
+.btn {
+   border-radius: 50px;
+   padding: 3px 15px;
+   background-color: #fff;
+   border: 1px solid #a0aec0;
+   color: #a0aec0;
+}
+.btn:hover {
+   background-color: #f56565;
+   color: #f7fafc;
+}
+
+/* Links */
+
+.telephone-link {
+   color: #1a202c;
+   font-weight: 700;
+}
+.telephone-link:hover {
+   color: #1a202c;
+}
+
+.normal-link {
+   color: #a0aec0;
+   font-weight: 700;
+}
+.normal-link:hover {
+   color: #a0aec0;
+}
+
+/* Form */
+
+.form-control {
+   background: transparent;
+   border: none;
+   box-shadow: none;
+   border-radius: 0;
+   border-bottom: 1px solid #ced4da;
+}
+
+.form-control:focus {
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
+
+.form-group {
+   position: relative;
+}
+.form-group label {
+   color: #a0aec0;
+   font-size: 0.8rem;
+}
+.form-group input + label {
+   position: absolute;
+   top: 0.2rem;
+   left: 0.5rem;
+   pointer-events: none;
+   transition: 200ms ease;
+}
+.form-group input:focus + label,
+.form-group input + label.freeze {
+   transform: translateY(-0.8rem);
+   font-size: 0.5rem;
+}
